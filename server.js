@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 // Simple homepage
 app.get("/", (req, res) => {
-  res.send("<h1>Hello from Node.js on Coolify 🚀</h1>");
+  res.send("<h1>Hello from Node.js 🚀</h1>");
 });
 
 // Start server
